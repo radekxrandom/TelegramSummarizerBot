@@ -1,0 +1,28 @@
+{
+  "name": "tldr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon --watch 'src/*.ts' --exec 'ts-node' src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.63.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@keyv/sqlite": "^3.6.6",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "keyv": "^4.5.4",
+    "node-telegram-bot-api": "^0.64.0",
+    "openai": "^4.20.1",
+    "puppeteer": "^21.5.2"
+  }
+}
