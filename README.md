@@ -4,7 +4,7 @@
 
 Created with openai completions api.
 
-## Check it out here: [tldr_bot](https://t.me/tldr_bot)
+## Check it out here: [tldr_bot](https://t.me/in_summary_bot)
 
 ![img](https://i.imgur.com/j54eyOG.png)
 
